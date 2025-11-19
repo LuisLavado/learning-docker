@@ -8,7 +8,8 @@ FROM nginx:latest
 
 # Path del sitio
 
-COPY /sitio /usr/share/nginx/html/sitio #**********************************************
+COPY /sitio /usr/share/nginx/html/sitio 
+**********************************************
 
 2. Generar una nueva imagen con el cambio del Dockerfile
 
