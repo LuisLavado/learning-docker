@@ -24,4 +24,5 @@ La diferencia central entre ambas tecnologías radica en cómo gestionan el aisl
 - Contenedores Docker: su aislamiento es más eficiente, pues no dependen directamente del hardware ni del sistema operativo anfitrión, funcionando independientemente sin necesidad de instalaciones adicionales.
 
 ## Enlaces
+
 - [Requisitos mínimos para instalar Docker](https://platzi.com/blog/requisitos-minimos-para-instalar-docker/)
