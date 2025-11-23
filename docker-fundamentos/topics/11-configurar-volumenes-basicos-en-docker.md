@@ -24,7 +24,16 @@ Una manera práctica es desplegar un sitio web localmente usando el servidor web
     docker run -it --rm -d -p 8080:80 -v ./sitio:/usr/share/nginx/html/sitio --name web nginx
     ```
 
-- En Windows: mientras en Linux se maneja "./sitio" (ruta ubuntu), en windows funciona con "disco:\ruta_de_la_carpeta_windows" ejem: "D:\cursodocker\sitio"
+- En Windows
+
+    ```
+    FROM nginx:latest
+
+    # Path del sitio
+    COPY /sitio /usr/share/nginx/html/sitio 
+    ```
+
+    Mientras en Linux se maneja "./sitio" (ruta ubuntu), en windows funciona con "disco:\ruta_de_la_carpeta_windows" ejem: "D:\cursodocker\sitio"
 
     ```
     docker run -it --rm -d -p 8080:80 -v D:/PROJECTS/learning-docker/projects/clase-11/sitio:/usr/share/nginx/html/sitio --name web nginx:1.0
