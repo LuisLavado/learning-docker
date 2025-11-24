@@ -6,3 +6,5 @@ FROM nginx:latest
 # En Windows
 COPY /sitio /usr/share/nginx/html/sitio 
 
+# Volumes
+VOLUME [ "D:/PROJECTS/learning-docker/projects/clase-11-2/sitio", "/usr/share/nginx/html/sitio" ]
