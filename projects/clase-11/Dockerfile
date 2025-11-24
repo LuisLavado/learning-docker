@@ -6,3 +6,5 @@ FROM nginx:latest
 # En Windows
 COPY /sitio /usr/share/nginx/html/sitio 
 
+# Volumes
+# VOLUME [ "/sitio", "/usr/share/nginx/html" ]
