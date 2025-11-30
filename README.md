@@ -14,7 +14,7 @@ El objetivo de este repo es:
 ## 📚 Tabla de Contenidos
 
 - [Acerca de este repositorio](#acerca-de-este-repositorio)
-- [Estructura de Carpetas](#estructura-de-carpetas)
+- [Estructura de Carpetas](#-estructura-de-carpetas)
 - [Curso 1: Docker - Fundamentos](#curso-1-docker---fundamentos)
 - [Curso 2: Docker Avanzado](#curso-2-docker-avanzado)
 - [Proyectos Prácticos](#proyectos-prácticos)
@@ -44,7 +44,7 @@ La idea es que evolucione como una **documentación viva**.
 ```
 docker-learning/
 │
-├── curso-docker-fundamentos/
+├── docker-fundamentos/
 │ ├── 01-introduccion.md
 │ ├── 02-imagenes-y-contenedores.md
 │ ├── 03-volumenes.md
@@ -54,7 +54,7 @@ docker-learning/
 │  ├── proyecto-01/
 │  └── proyecto-02/
 │
-├── curso-docker-avanzado/
+├── docker-avanzado/
 │ ├── 01-docker-compose-avanzado.md
 │ ├── 02-multistage-builds.md
 │ ├── 03-docker-swarm.md
@@ -76,7 +76,7 @@ Ya completado ✔️
 En esta sección podrás encontrar mis apuntes, comandos explicados, diagramas y proyectos prácticos.
 
 📄 **Notas del curso:**  
-👉 [Ver apuntes del Curso de Docker Fundamentos](./curso-docker-fundamentos/)
+👉 [Ver apuntes del Curso de Docker Fundamentos](./docker-fundamentos/README.md)
 
 📌 Temas cubiertos:
 
