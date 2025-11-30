@@ -82,6 +82,6 @@ Al descargar y ejecutar imágenes, permanece atento a los datos que se presentan
 
 ## Lecturas recomendadas
 
-__🔗__[Cómo crear tu cuenta en Docker Hub](https://platzi.com/blog/como-crear-tu-cuenta-en-docker-hub/)
+🔗[Cómo crear tu cuenta en Docker Hub](https://platzi.com/blog/como-crear-tu-cuenta-en-docker-hub/)
 
 🔗[Cómo utilizar registros privados de Docker](https://platzi.com/blog/como-utilizar-registros-privados-de-docker/)
