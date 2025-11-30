@@ -30,3 +30,8 @@ Si siguieron la clase al pie de la letra y en el navegador no se muestra la nuev
 
 docker build -t nginx .
 docker run -it --rm -d -p 8080:80 -v ./sitio:/usr/share/nginx/html/sitio --name web nginx
+
+
+docker run -it --rm -d -p 8080:80 -v "$(pwd)/site:/usr/share/nginx/html/sitio" --name web site:latest
+
+docker run -it --rm -d -p 8080:80 -v D:/PROJECTS/learning-docker/projects/clase-11/sitio:/usr/share/nginx/html/sitio --name web lnginx
