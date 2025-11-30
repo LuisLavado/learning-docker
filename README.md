@@ -180,6 +180,7 @@ docker-compose down
 
 - Cursos de Platzi / Udemy / YouTube
 
-## 📄 Licencia
+## Licencia
+<!-- ## 📄 Licencia -->
 
 MIT License — libre para usar, modificar y compartir.
