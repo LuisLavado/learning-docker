@@ -22,11 +22,11 @@ El objetivo de este repo es:
 - [Cómo usar este repositorio](#cómo-usar-este-repositorio)
 - [Comandos esenciales de Docker](#comandos-esenciales-de-docker)
 - [Recursos recomendados](#recursos-recomendados)
-- [Licencia](#licencia)
+- [Licencia](#-licencia)
 
 ---
-
-## 📦 Acerca de este repositorio {#acerca-del-repositorio}
+<a id="acerca-de-este-repositorio"></a>
+## 📦 Acerca de este repositorio
 
 Este repositorio contiene:
 
@@ -180,6 +180,6 @@ docker-compose down
 
 - Cursos de Platzi / Udemy / YouTube
 
-## 📄 Licencia {#licencia}
+## 📄 Licencia{#licencia}
 
 MIT License — libre para usar, modificar y compartir.
