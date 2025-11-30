@@ -26,7 +26,7 @@ El objetivo de este repo es:
 
 ---
 
-## 📦 Acerca de este repositorio
+## 📦 Acerca de este repositorio {#acerca-del-repositorio}
 
 Este repositorio contiene:
 
@@ -180,7 +180,6 @@ docker-compose down
 
 - Cursos de Platzi / Udemy / YouTube
 
-## Licencia
-<!-- ## 📄 Licencia -->
+## 📄 Licencia {#licencia}
 
 MIT License — libre para usar, modificar y compartir.
