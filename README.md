@@ -15,13 +15,13 @@ El objetivo de este repo es:
 
 - [Acerca de este repositorio](#acerca-de-este-repositorio)
 - [Estructura de Carpetas](#-estructura-de-carpetas)
-- [Curso 1: Docker - Fundamentos](#curso-1-docker---fundamentos)
-- [Curso 2: Docker Avanzado](#curso-2-docker-avanzado)
-- [Proyectos Prácticos](#proyectos-prácticos)
-- [Requisitos](#requisitos)
-- [Cómo usar este repositorio](#cómo-usar-este-repositorio)
-- [Comandos esenciales de Docker](#comandos-esenciales-de-docker)
-- [Recursos recomendados](#recursos-recomendados)
+- [Curso 1: Docker - Fundamentos](#-curso-1-docker---fundamentos)
+- [Curso 2: Docker Avanzado](#-curso-2-docker-avanzado)
+- [Proyectos Prácticos](#-proyectos-prácticos)
+- [Requisitos](#-requisitos)
+- [Cómo usar este repositorio](#-cómo-usar-este-repositorio)
+- [Comandos esenciales de Docker](#-comandos-esenciales-de-docker)
+- [Recursos recomendados](#-recursos-recomendados)
 - [Licencia](#-licencia)
 
 ---
