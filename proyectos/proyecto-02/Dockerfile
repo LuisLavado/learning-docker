@@ -8,3 +8,6 @@ RUN pip install -r requirements.txt
 COPY . .
 
 CMD [ "python", "-m", "flask", "run", "--host=0.0.0.0" ]
+
+# si quieres agregarle un puerto especifico del lado del contenedor
+# CMD [ "python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5001" ]
