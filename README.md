@@ -45,27 +45,16 @@ La idea es que evolucione como una **documentación viva**.
 docker-learning/
 │
 ├── docker-fundamentos/
-│ ├── 01-introduccion.md
-│ ├── 02-imagenes-y-contenedores.md
-│ ├── 03-volumenes.md
-│ ├── 04-redes.md
-│ ├── 05-dockerfile.md
-│ └── proyectos/
-│  ├── proyecto-01/
-│  └── proyecto-02/
-│
 ├── docker-avanzado/
-│ ├── 01-docker-compose-avanzado.md
-│ ├── 02-multistage-builds.md
-│ ├── 03-docker-swarm.md
-│ ├── 04-orquestacion.md
-│ └── proyectos/
-│  ├── proyecto-01/
-│  └── proyecto-02/
+├── proyectos/
+│ ├── proyecto-01/
+│ ├── proyecto-02/
+│ └── ...
 │
 └── README.md
 ```
 
+`docker-fundamentos` y `docker-avanzado` tienen su propia estructura de carpetas. Y a medida que cresca éste repositorio, se añadirán más `proyectos`.
 
 ---
 
@@ -83,7 +72,6 @@ En esta sección podrás encontrar mis apuntes, comandos explicados, diagramas y
 - ¿Qué es Docker y por qué usarlo?
 - Contenedores vs Máquinas Virtuales  
 - Imágenes y contenedores  
-- Capas y caching  
 - Dockerfile  
 - Volúmenes  
 - Redes en Docker  
@@ -101,15 +89,14 @@ Esta sección contendrá:
 
 - Docker Compose avanzado  
 - Multi–stage builds  
-- Optimización de imágenes  
-- Docker Swarm  
+- Optimización de imágenes 
 - Orquestación  
 - Variables de entorno y secretos  
 - Debugging en contenedores  
 - Patrones avanzados para entornos reales  
 
 📄 **Notas del curso:**  
-👉 (próximamente)
+👉 [Ver apuntes del Curso de Docker Avanzado](./docker-avanzado/README.md)
 
 ---
 
@@ -117,7 +104,7 @@ Esta sección contendrá:
 
 Cada módulo contiene mini–proyectos diseñados para reforzar lo aprendido.
 
-Ejemplos:
+<!-- Ejemplos:
 
 - Crear una imagen desde cero  
 - Servidor Nginx personalizado  
@@ -125,9 +112,9 @@ Ejemplos:
 - Volúmenes con persistencia real  
 - Redes entre contenedores  
 - Docker Compose con varios servicios  
-- Multi–stage builds para producción  
+- Multi–stage builds para producción   -->
 
-👉 [Ver proyectos del Curso de Docker Fundamentos](./curso-docker-fundamentos/proyectos/)  
+👉 [Ver proyectos del Curso de Docker Fundamentos](./proyectos/)  
 👉 (Se agregarán más en el curso avanzado)
 
 ---
@@ -146,7 +133,7 @@ Ejemplos:
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/<tu-usuario>/<tu-repo-docker-learning>.git
+git clone https://github.com/LuisLavado/learning-docker.git
 ```
 
 2. Navega entre las carpetas y revisa los apuntes en Markdown.
