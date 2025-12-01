@@ -4,7 +4,7 @@ Crear imágenes en Docker desde un archivo Dockerfile marca un paso esencial y m
 
 ## ¿Cómo crear una imagen Docker desde el Dockerfile?
 
-La construcción de una imagen Docker se realiza desde la línea de comandos en la misma ubicación donde se encuentra tu archivo Dockerfile. Para confirmarlo, usa el comando básico de Linux `ls`, que verifica que el archivo esté presente en la carpeta. Luego, ejecuta:
+La construcción de una imagen Docker se realiza desde la línea de comandos en la misma ubicación donde se encuentra tu archivo `Dockerfile`. Para confirmarlo, usa el comando básico de Linux `ls`, que verifica que el archivo esté presente en la carpeta (en nuestro caso `proyecto-01`). Luego, ejecuta:
 
 ```
 docker build .
