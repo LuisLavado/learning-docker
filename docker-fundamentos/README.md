@@ -64,8 +64,4 @@ curso-docker-fundamentos/
 ├── 17-exportar-importar-imagenes-cli.md
 ├── 18-docker-compose-gestion-de-contenedores.md
 ├── 19-docker-compose-despliegue-frontend-backend.md
-├── 20-creacion-y-gestion-contenedores-basico.md
-└── proyectos/
-    ├── proyecto-01-api-flask/
-    ├── proyecto-02-contenedor-web-nginx/
-    └── ...
+└── 20-creacion-y-gestion-contenedores-basico.md
