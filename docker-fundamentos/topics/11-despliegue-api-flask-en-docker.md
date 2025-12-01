@@ -41,6 +41,14 @@ CMD ["python", "-m", "flask", "run"]
 
 Cada instrucción sigue una secuencia determinada, esencial para que Docker entienda la estructura y dónde alojar los elementos necesarios para correr tu aplicación.
 
+## Explicación de instrucciones especificadas en el archivo Dockerfile
+
+- __WORKDIR__ = ubicacion donde se creara la aplicacion
+- __COPY__ = copiar archivo local al entorno docker
+- __RUN__ = ejecutar un comando dentro del contenedor
+- __COPY__ . . = copiamos los fuentes dentro del WORKDIR especificado
+- __CMD__ = ejecutar comando sh
+
 ## ¿Por qué Docker es útil para diferentes proyectos tecnológicos?
 
 Docker utiliza términos estándar como `FROM`, `WORKDIR`, `COPY`, `RUN` y `CMD`, independientemente de la tecnología o plataforma que elijas trabajar. Esto significa que puedes usar estos mismos conceptos aplicados a:
